@@ -40,25 +40,17 @@ public class CommentInfo extends BaseEntity implements Serializable {
     private Long parentId;
 
     /**
-     * 评论日期
-     */
-    private Date commentDate;
-
-    /**
      * 本评论下的子评论
      */
+    @TableField(exist = false)
     private List<CommentInfo> child = new ArrayList<>();
 
-    // 多表查询到的字段
-    private Long userType; // 用户类型  1：管理员 2：普通用户 默认普通用户
-    private String userName; // 用户名
-    private String userPass; // 密码
-    private String userEmail; // 邮箱
-    private Date userRegdate; // 注册时间
-    private String userSignature; // 个性签名
-    private String userIcon; // 个人头像
+    @TableField(exist = false)
+    private UserInfo userInfo;
 
-    private String articleTitle; // 文章标题
+    // 文章标题
+    @TableField(exist = false)
+    private String title;
 
     @TableField(exist = false)
     private static final long serialVersionUID = 1L;

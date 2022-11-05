@@ -27,19 +27,9 @@ public class UserInfo extends BaseEntity implements Serializable {
     private String name;
 
     /**
-     * 密码
-     */
-    private String password;
-
-    /**
      * 邮箱
      */
     private String email;
-
-    /**
-     * 注册时间
-     */
-    private Date regdateTime;
 
     /**
      * 个性签名

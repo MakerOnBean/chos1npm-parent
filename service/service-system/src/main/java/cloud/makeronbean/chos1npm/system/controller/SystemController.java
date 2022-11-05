@@ -19,7 +19,6 @@ public class SystemController {
     @Autowired
     private SystemService systemService;
 
-
     /**
      * 查询全站的系统设置
      */

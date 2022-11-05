@@ -1,7 +1,7 @@
 package cloud.makeronbean.chos1npm.common.handler;
 
-import cloud.makeronbean.gmall.common.execption.GmallException;
-import cloud.makeronbean.gmall.common.result.Result;
+import cloud.makeronbean.chos1npm.common.execption.BlogException;
+import cloud.makeronbean.chos1npm.common.result.Result;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -28,9 +28,9 @@ public class GlobalExceptionHandler {
      * @param e
      * @return
      */
-    @ExceptionHandler(GmallException.class)
+    @ExceptionHandler(BlogException.class)
     @ResponseBody
-    public Result error(GmallException e){
+    public Result error(BlogException e){
         return Result.fail(e.getMessage());
     }
 }

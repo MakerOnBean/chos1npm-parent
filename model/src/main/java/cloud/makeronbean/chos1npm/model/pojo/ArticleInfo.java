@@ -63,13 +63,14 @@ public class ArticleInfo extends BaseEntity implements Serializable {
 
     /**
      * 文章状态
+     * 1 所有人 2尽自己
      */
     private Integer state;
 
     /**
      * 后台审核是否通过
      */
-    private Integer isPass;
+    private Integer Pass;
 
     /**
      * 评论状态
@@ -89,7 +90,7 @@ public class ArticleInfo extends BaseEntity implements Serializable {
     /**
      * 文章缩略图
      */
-    private byte[] litImg;
+    private String litImg;
 
     @TableField(exist = false)
     private static final long serialVersionUID = 1L;

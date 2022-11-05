@@ -1,12 +1,13 @@
-cloud/makeronbean/chos1npm/model/pojo/LoginInfo.class
-cloud/makeronbean/chos1npm/model/pojo/ReviewInfo.class
 cloud/makeronbean/chos1npm/model/pojo/BackstageMenu.class
-cloud/makeronbean/chos1npm/model/pojo/ClassifyInfo.class
 cloud/makeronbean/chos1npm/model/pojo/PageBean.class
-cloud/makeronbean/chos1npm/model/pojo/ArticleInfo.class
 cloud/makeronbean/chos1npm/model/pojo/CommentInfo.class
 cloud/makeronbean/chos1npm/model/pojo/UserInfo.class
 cloud/makeronbean/chos1npm/model/pojo/SystemSetup.class
+cloud/makeronbean/chos1npm/model/pojo/LoginInfo.class
+cloud/makeronbean/chos1npm/model/pojo/ReviewInfo.class
+cloud/makeronbean/chos1npm/model/pojo/UserLogin.class
+cloud/makeronbean/chos1npm/model/pojo/ClassifyInfo.class
+cloud/makeronbean/chos1npm/model/pojo/ArticleInfo.class
 cloud/makeronbean/chos1npm/model/pojo/UrlInfo.class
 cloud/makeronbean/chos1npm/model/pojo/Message.class
 cloud/makeronbean/chos1npm/model/base/BaseEntity.class

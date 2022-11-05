@@ -45,7 +45,7 @@ public class UrlInfo extends BaseEntity implements Serializable {
      * 后台审核是否通过
      * 1待审核 2审核通过 3审核失败
      */
-    private Integer isPass;
+    private Integer Pass;
 
     /**
      * 链接类型
